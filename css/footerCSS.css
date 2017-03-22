@@ -1,0 +1,19 @@
+footer{
+    width: 100%;
+    height: 1rem;
+}
+
+footer .foot{
+    width: 37.5rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.2rem   ;
+    background-color: #DCDCDC;
+}
+
+footer .foot p,a{
+    font-size: 0.3rem;
+    text-decoration: none;
+    text-align: center;
+    color:gray;
+}

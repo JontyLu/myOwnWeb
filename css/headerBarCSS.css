@@ -1,0 +1,73 @@
+
+
+header{
+    width: 100%;
+    height: 3rem;
+    background-color: #363636;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    box-sizing: border-box;
+}
+
+header .navigator{
+    width: 20rem;
+    height: 2rem;
+   /* background-color: green;*/
+    padding: 0.4rem  ;
+    display:inline-block;
+    box-sizing: border-box;
+}
+
+header .navigator .ulNavigator{
+    width: 18rem;
+    height: 1rem;
+/*    background-color: orange;*/
+    margin:0 auto;
+}
+header .navigator .ulNavigator li{
+    display:inline;
+    height: 1rem;
+}
+
+header .navigator .ulNavigator li a{
+    text-decoration: none;
+    display:inline-block;
+    padding:0 0.2rem;
+    height:1rem;
+    line-height: 1rem;
+    color: #ffffff;
+    font-size: 0.5rem;
+}
+
+header .rightDiv{
+    width: 5rem;
+    height: 2rem;
+/*   background-color: blue;*/
+    padding: 0.4rem  ;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    float:right;
+}
+
+.rightDiv .logoA img{
+    display:inline-block;
+    vertical-align: bottom;
+    width: 47%;
+}
+.rightDiv .signInUp{
+    display:inline-block;
+    margin-top: 0.4rem;
+    width: 2rem;
+    float: right;
+    color: #ffffff;
+    font-size: 0.5rem;
+    /*background-color: yellow;*/
+}
+
+.rightDiv .signInUp a{
+    text-decoration: none;
+    width: 30%;
+    color: #ffffff;
+}
+

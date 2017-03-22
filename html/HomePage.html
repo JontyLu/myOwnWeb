@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>My Movie</title>
+    <link rel="stylesheet" href="../css/headerBarCSS.css"/>
+    <link rel="stylesheet" href="../css/bodySetCSS.css"/>
+    <link rel="stylesheet" href="../css/searchBarCSS.css"/>
+    <link rel="stylesheet" href="../css/mainPageCSS.css"/>
+    <link rel="stylesheet" href="../css/footerCSS.css"/>
+</head>
+<body onload="homePageEvent()">
+<div class="container">
+<!--头部-->
+<header>
+    <nav class="navigator">
+            <ul class="ulNavigator">
+                <li><a class="navigatorLink" href="#" onclick="navigatorMark()">首页</a></li>
+                <li><a class="navigatorLink" href="#" onclick="navigatorMark()">电影</a></li>
+                <li><a class="navigatorLink" href="#" onclick="navigatorMark()">影评</a></li>
+                <li><a class="navigatorLink" href="#" onclick="navigatorMark()">榜单</a></li>
+                <li><a class="navigatorLink" href="#" onclick="navigatorMark()">关于我们</a></li>
+            </ul>
+    </nav>
+    <div class="rightDiv">
+        <a href="HomePage.html" class="logoA">
+            <img src="../image/logo1.jpg" alt="无法加载" class="logoImg"/>
+        </a>
+        <div class="signInUp">
+             <a href="#" class="signIn">登陆</a>
+             |
+             <a href="SignInUpPage.html" class="signUp">注册</a>
+         </div>
+    </div>
+</header>
+
+<!--搜索栏-->
+<div class="search">
+    <form action="#">
+        <div class="inputControl">
+           <input type="text" id="searchInput" placeholder="搜索"/>
+            <button type="button">搜索</button>
+        </div>
+    </form>
+
+</div>
+
+
+<!--主体-->
+<div class="main">
+    <div class="mainDiv">
+    <aside class="unStar">
+        <button type="button">
+            <img src="../image/1.jpg" alt="无法加载 "/>
+        </button>
+    </aside>
+    <div class="recommend">
+        <div class="recommendPosition">
+            <p class="recommendText">「今日推荐」</p>
+            <p class="recommendMovieName">蝙蝠侠大战超人：正义黎明</p>
+            <p class="recommendDetails">《蝙蝠侠大战超人：正义黎明》是由美国华纳兄弟影业公司出品的科幻动作片，由扎克·施奈德执导，本·阿弗莱克、亨利·卡维尔、盖尔·加朵、杰西·艾森伯格领衔主演。该片故事背景设定在《超人：钢铁之躯》结尾大战后，围绕着蝙蝠侠和超人之间激增的矛盾而展开，讲述了超人帮助人类解决了很多问题，成为了人类的神，却引起了莱克斯·卢瑟的嫉妒，从而挑拨蝙蝠侠与超人之间战斗的故事。影片于2016年3月25日以2D、3D、IMAX 3D全格式在美国、中国大陆同步上映。</p>
+        </div>
+    </div>
+    <aside class="star">
+        <button>
+            <img src="../image/2.jpg" alt="无法加载"/>
+        </button>
+    </aside>
+    <div style="clear: both"></div>
+    </div>
+</div>
+<!--页尾-->
+    <footer>
+        <div class="foot">
+            <p>
+                <a href="#" target="_blank">关于我们</a> -
+                <a href="#" target="_blank">广告合作</a> -
+                <a href="#" target="_blank">联系我们</a> -
+                <a href="#" target="_blank">免责声明</a> -
+                <a href="#" target="_blank">网站地图</a> -
+                <a href="#" target="_blank">投诉建议</a> -
+                <a href="#" target="_blank">在线投稿</a>
+            </p>
+            <p>©CopyRight 2006-201 Inc All Rights Reserved. **** 版权所有</p>
+        </div>
+</footer>
+</div>
+<script type="text/javascript" src="../js/homePage.js"></script>
+</body>
+</html>

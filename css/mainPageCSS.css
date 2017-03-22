@@ -1,0 +1,89 @@
+.main{
+    width: 37.9rem   ;
+    height: 15rem;
+    background: url("../image/image1.jpg") 50% no-repeat;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+.main .mainDiv{
+    height: 15rem;
+    position: relative;
+    box-sizing:content-box;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.main .mainDiv .unStar img{
+    width: 4.3rem;
+    height: 4.3rem;
+    left: 20rem;
+    margin-left: -17rem; ;
+    margin-top: 4.3rem;
+    margin-right: 0.5rem;
+    box-sizing:border-box;
+    border: 0.1rem solid #D72101;
+    border-radius:8rem;
+    position: absolute;
+}
+
+.main .mainDiv .recommend{
+    width: 18rem;
+    height: 8rem;
+    margin: 2rem;
+    left: -9.5rem;
+    margin-left: 50%;
+    border: 0.1rem solid  #363636;
+    border-radius:0.1rem;
+    box-sizing:border-box;
+    position: absolute;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.6);
+}
+.main .mainDiv .recommendPosition{
+    width: 18rem;
+    height: 8rem;
+    position: relative;
+    overflow: hidden;
+    padding: 0.3rem;
+}
+.recommendPosition .recommendText{
+    width: 90%;
+    position: absolute;
+    margin:0 auto;;
+    top: 0.5rem;
+    text-align: center;
+    font-size: 0.7rem;
+    color: #DCDCDC;
+}
+.recommendPosition .recommendMovieName{
+    width: 94%;
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    top: 2.5rem;
+    font-size: 1.0rem;
+}
+.recommendPosition .recommendDetails{
+    width: 94%;
+    position: absolute;
+    margin: 0 auto;
+    top: 4.8rem;
+    font-size: 0.35rem;
+    color: gray;
+    text-indent: 0.4rem;
+
+}
+
+.main .mainDiv .star img{
+    width: 4rem;
+    height: 4rem;
+    left: 22rem;
+
+    margin-left: 8rem; ;
+    margin-top: 3rem;
+    margin-right: 0.5rem;
+    border: 0.1rem solid #00B59E;
+    border-radius:8rem;
+    position: absolute;
+}

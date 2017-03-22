@@ -1,0 +1,61 @@
+.search{
+    background-color: #DCDCDC;
+    width: 100%;
+    height: 1.8rem;
+    padding-top: 0.2rem ;
+    box-sizing:border-box;
+}
+
+.search form{
+    width: 15rem;
+    height: 1.4rem;
+    margin-left: 2.5rem;
+    padding: 0.1rem;
+/*    background-color: red;*/
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.search .inputControl{
+    width: 14.8rem;
+    height: 1.2rem;
+/*    background-color: blue;*/
+    padding-top: 0.2rem;
+    box-sizing:border-box;
+
+
+}
+.search .inputControl #searchInput {
+    box-sizing: border-box;
+    text-align: left ;
+    font-size: 0.4rem;
+    height: 0.8rem;
+    border-radius: 0.1rem;
+    border: 0.01rem solid  #c8cccf;
+    color:#6a6f77;
+    padding: 0.15rem;
+    display: inline-block;
+    vertical-align: top;
+    /*display：inline-block是基于基线对齐的
+    需要用vertical-align选择一个基线给它*/
+    width: 70%;
+    outline: none;
+}
+.search .inputControl button {
+    box-sizing: border-box;
+    text-align: center ;
+    font-size: 0.4rem;
+    height: 0.8rem;
+    border-radius: 0.1rem;
+    border: 0.01rem solid  #c8cccf;
+    background-color: #363636;
+    color:#c8cccf;
+    padding: 0.10rem;
+    display: inline-block;
+    vertical-align: top;
+    /*display：inline-block是基于基线对齐的
+    需要用vertical-align选择一个基线给它*/
+    width: 15%;
+    outline: none;
+}
+

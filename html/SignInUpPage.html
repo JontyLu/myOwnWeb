@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>My Movie</title>
+    <link rel="stylesheet" href="../css/headerBarCSS.css"/>
+    <link rel="stylesheet" href="../css/bodySetCSS.css"/>
+    <link rel="stylesheet" href="../css/searchBarCSS.css"/>
+    <link rel="stylesheet" href="../css/signPageCSS.css"/>
+    <link rel="stylesheet" href="../css/footerCSS.css"/>
+    <script src="../js/homePage.js"></script>
+</head>
+<body onload="homePageEvent()">
+<div class="container">
+    <!--头部-->
+    <header>
+        <nav class="navigator">
+            <ul class="ulNavigator">
+                <li><a href="HomePage.html">首页</a></li>
+                <li><a href="#">电影</a></li>
+                <li><a href="#">影评</a></li>
+                <li><a href="#">榜单</a></li>
+                <li><a href="#">关于我们</a></li>
+            </ul>
+        </nav>
+        <div class="rightDiv">
+            <a href="HomePage.html" class="logoA">
+                <img src="../image/logo1.jpg" alt="无法加载" class="logoImg"/>
+            </a>
+        </div>
+    </header>
+
+    <div class="main">
+        <form action="" method="post" class="STYLE-NAME">
+            <h1>注册页面
+                <span>请详细填写下面的信息</span>
+            </h1>
+            <div class="inputContainer">
+                <label>
+                    <span>邮箱：</span>
+                    <input id="email" type="email" name="email" placeholder="请输入有效的邮箱地址" />
+                </label>
+                <label>
+                <span>用户名：</span>
+                <input id="name" type="text" name="name" placeholder="请输入你的用户名" />
+            </label>
+                <label>
+                    <span>密码：</span>
+                    <input id="password" type="password" name="password" placeholder="请输入你的密码" />
+                </label>
+            <label>
+                <span>备注：</span>
+                <textarea id="remark" name="remark" placeholder="个人简介"></textarea>
+            </label>
+            <label>
+                <span>性别：</span>
+                <select name="selection">
+                <option value="male">男</option>
+                <option value="female">女</option>
+            </select>
+            </label>
+            <label>
+                <span>&nbsp;</span>
+                <button type="button" >注册</button>
+            </label>
+            </div>
+        </form>
+        <div class="rightDiv">
+            <span>发现</span>
+            <span>好电影</span>
+        </div>
+    </div>
+
+    <!--页尾-->
+    <footer>
+        <div class="foot">
+            <p>
+                <a href="#" target="_blank">关于我们</a> -
+                <a href="#" target="_blank">广告合作</a> -
+                <a href="#" target="_blank">联系我们</a> -
+                <a href="#" target="_blank">免责声明</a> -
+                <a href="#" target="_blank">网站地图</a> -
+                <a href="#" target="_blank">投诉建议</a> -
+                <a href="#" target="_blank">在线投稿</a>
+            </p>
+            <p>©CopyRight 2006-201 Inc All Rights Reserved. **** 版权所有</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
